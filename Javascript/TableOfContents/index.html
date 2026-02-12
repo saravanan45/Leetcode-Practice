@@ -1,0 +1,269 @@
+<body>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./index.css" />
+  <div class="container">
+    <aside class="side-navbar">
+      <nav id="nav-list" class="navbar-container">
+        <p class="nav-header">On this page</p>
+      </nav>
+    </aside>
+    <main class="main">
+      <article class="article" id="article">
+        <h1>A Complete Guide to Web Development</h1>
+        <p>
+          Web development encompasses all the tasks associated with building
+          websites and applications for the internet. This comprehensive guide
+          covers the core technologies every web developer needs to master.
+        </p>
+        <p>
+          Whether you are just starting out or looking to deepen your existing
+          knowledge, understanding these foundational technologies will set you
+          up for success. The web platform has evolved significantly over the
+          years, but these core pillars remain as relevant as ever.
+        </p>
+        <p>
+          In the sections that follow, we will explore HTML for structure, CSS
+          for presentation, JavaScript for interactivity, and accessibility for
+          inclusive design. Each topic builds on the previous one, giving you a
+          complete picture of modern web development.
+        </p>
+
+        <h2>HTML</h2>
+        <p>
+          HTML (HyperText Markup Language) is the backbone of every web page. It
+          defines the structure and content of a page using a system of elements
+          and tags that browsers can interpret and render visually to users.
+        </p>
+        <p>
+          Every website you visit is built on HTML. It tells the browser what
+          content to display and how that content is organized: headings,
+          paragraphs, images, links, and much more. Without HTML, the web simply
+          would not exist.
+        </p>
+        <p>
+          Learning HTML is the first step for any aspiring web developer. Its
+          syntax is straightforward, and modern HTML5 introduced many semantic
+          elements that make it easier to create meaningful, well-structured
+          documents.
+        </p>
+
+        <h3>Elements and Tags</h3>
+        <p>
+          HTML elements are the building blocks of web pages. Common elements
+          include headings, paragraphs, links, images, lists, and more. Each
+          element is represented by a tag that describes its purpose and meaning
+          on the page.
+        </p>
+        <p>
+          Elements can be nested inside each other to create complex structures.
+          For example, a navigation bar might contain an unordered list, which
+          contains list items, which contain anchor links. Understanding this
+          nesting is key to writing clean HTML.
+        </p>
+        <p>
+          Some elements are self-closing (like images and line breaks), while
+          others require both an opening and closing tag. Knowing the difference
+          and using elements correctly is a fundamental skill every developer
+          must have.
+        </p>
+
+        <h3>Forms and Inputs</h3>
+        <p>
+          Forms allow users to submit data to a server. HTML provides a rich set
+          of form controls including text inputs, checkboxes, radio buttons,
+          select dropdowns, and buttons to build interactive data-collection
+          interfaces.
+        </p>
+        <p>
+          The form element itself defines where the data is sent and how it is
+          transmitted. Each input within a form should have a proper label
+          element associated with it for accessibility. Using the correct input
+          types (email, number, date) also enables built-in browser validation.
+        </p>
+        <p>
+          Modern HTML5 form features like the required attribute, pattern
+          validation, and placeholder text have reduced the need for custom
+          JavaScript validation in many cases, making forms easier to build and
+          more user-friendly.
+        </p>
+
+        <h2>CSS</h2>
+        <p>
+          CSS (Cascading Style Sheets) controls the visual presentation of HTML
+          documents. It allows developers to apply styles such as colors, fonts,
+          spacing, and layouts to create visually appealing and responsive web
+          pages.
+        </p>
+        <p>
+          The cascading nature of CSS means styles can be inherited and
+          overridden in predictable ways. This makes it possible to define
+          global styles and then customize them for specific components or
+          sections of a page.
+        </p>
+        <p>
+          CSS has evolved enormously in recent years. Features like custom
+          properties (variables), container queries, and the :has() selector
+          have made it more powerful than ever, reducing the need for JavaScript
+          in many styling scenarios.
+        </p>
+
+        <h3>Selectors and Specificity</h3>
+        <p>
+          CSS selectors are patterns used to select and style HTML elements.
+          Understanding specificity, the algorithm that determines which styles
+          are applied when rules conflict, is essential for writing maintainable
+          stylesheets.
+        </p>
+        <p>
+          Selectors range from simple (element, class, ID) to complex (attribute
+          selectors, pseudo-classes, combinators). Choosing the right selector
+          impacts both the readability and performance of your CSS. Overly
+          specific selectors can make styles hard to override later.
+        </p>
+        <p>
+          A good rule of thumb is to keep specificity as low as possible.
+          Relying on class selectors instead of IDs or deeply nested selectors
+          makes your stylesheets more flexible and easier to maintain as the
+          project grows.
+        </p>
+
+        <h3>Flexbox and Grid</h3>
+        <p>
+          Flexbox and CSS Grid are modern layout systems. Flexbox is designed
+          for one-dimensional layouts (rows or columns), while Grid excels at
+          creating complex two-dimensional layouts with rows and columns
+          simultaneously.
+        </p>
+        <p>
+          Before Flexbox and Grid, developers relied on floats and positioning
+          hacks to create layouts. These modern tools have made layout creation
+          intuitive and predictable. Flexbox is perfect for aligning items
+          within a container, distributing space, and handling dynamic content.
+        </p>
+        <p>
+          Grid, on the other hand, shines when you need to define both rows and
+          columns at the same time. Features like grid-template-areas let you
+          create named layout regions, making your CSS read almost like a visual
+          blueprint of the page.
+        </p>
+
+        <h2>JavaScript</h2>
+        <p>
+          JavaScript is the programming language of the web. It enables dynamic
+          behavior, user interaction, and real-time updates without requiring
+          page reloads. It runs natively in every modern web browser.
+        </p>
+        <p>
+          Originally created in just ten days, JavaScript has grown into one of
+          the most widely used programming languages in the world. With Node.js,
+          it can also run on servers, making it possible to use a single
+          language across the entire stack.
+        </p>
+        <p>
+          The language has matured significantly with ES6 and beyond,
+          introducing features like arrow functions, destructuring, template
+          literals, modules, and async/await that make code more readable and
+          maintainable.
+        </p>
+
+        <h3>DOM Manipulation</h3>
+        <p>
+          The Document Object Model (DOM) represents the page as a tree of
+          nodes. JavaScript provides APIs to create, remove, and modify elements
+          dynamically, enabling rich interactive experiences on the web.
+        </p>
+        <p>
+          Common DOM operations include selecting elements with querySelector,
+          creating new elements with createElement, modifying content with
+          textContent or innerHTML, and changing styles or classes. These
+          operations form the foundation of any interactive web application.
+        </p>
+        <p>
+          Understanding the DOM tree structure is crucial for efficient
+          manipulation. Operations like appending multiple elements can be
+          optimized by using document fragments or building elements off-screen
+          before inserting them into the live document.
+        </p>
+
+        <h3>Event Handling</h3>
+        <p>
+          Events allow JavaScript to respond to user actions like clicks,
+          keypresses, and scroll. Concepts like event bubbling, capturing, and
+          delegation are fundamental to building efficient, interactive web
+          applications.
+        </p>
+        <p>
+          When an event occurs on a nested element, it bubbles up through its
+          parent elements all the way to the document root. This bubbling
+          behavior enables event delegation, where you attach a single listener
+          to a parent element instead of many listeners to individual children.
+        </p>
+        <p>
+          The addEventListener method is the standard way to attach event
+          handlers. It supports options like once (fire only once), passive (for
+          scroll performance), and capture (listen during the capture phase
+          instead of bubbling).
+        </p>
+
+        <h2>Accessibility</h2>
+        <p>
+          Web accessibility ensures websites are usable by everyone, including
+          people with disabilities. Following guidelines like WCAG helps create
+          inclusive experiences that work with assistive technologies like
+          screen readers.
+        </p>
+        <p>
+          Accessibility is not an afterthought. It should be considered from the
+          very beginning of a project. Many accessibility best practices, like
+          using semantic HTML and providing text alternatives for images, also
+          improve SEO and overall user experience for everyone.
+        </p>
+        <p>
+          Testing for accessibility involves both automated tools (like axe or
+          Lighthouse) and manual testing with screen readers and keyboard-only
+          navigation. No automated tool can catch every issue, so manual testing
+          is essential.
+        </p>
+
+        <h3>ARIA Attributes</h3>
+        <p>
+          ARIA (Accessible Rich Internet Applications) attributes add semantic
+          information to elements, helping screen readers and assistive tools
+          understand the role, state, and properties of custom UI components on
+          the page.
+        </p>
+        <p>
+          Common ARIA attributes include role (defining what an element is),
+          aria-label (providing an accessible name), aria-expanded (indicating
+          toggle state), and aria-hidden (hiding decorative elements from screen
+          readers).
+        </p>
+        <p>
+          However, the first rule of ARIA is: do not use ARIA if you can use a
+          native HTML element instead. A button element is always better than a
+          div with role="button", because native elements come with built-in
+          keyboard handling and accessibility support.
+        </p>
+
+        <h3>Keyboard Navigation</h3>
+        <p>
+          All interactive elements should be operable via keyboard. Proper focus
+          management, visible focus indicators, and logical tab order are
+          critical for users who navigate without a mouse or pointing device.
+        </p>
+        <p>
+          The tab key moves focus between interactive elements, while Enter and
+          Space activate buttons and links. For custom components like modals,
+          dropdown menus, or tabs, developers need to manage focus
+          programmatically to ensure a smooth keyboard experience.
+        </p>
+        <p>
+          Visible focus indicators (like outlines or rings) should never be
+          removed entirely. While the default browser outline may not match your
+          design, you should always replace it with a custom focus style rather
+          than hiding it with outline: none.
+        </p>
+      </article>
+    </main>
+  </div>
+</body>
