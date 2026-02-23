@@ -5,7 +5,6 @@ function test(arr, val) {
         return [obj[val - arr[i]], i]
        }
        obj[arr[i]] = i
-    //    console.log("obj", obj)
     }
 }
 

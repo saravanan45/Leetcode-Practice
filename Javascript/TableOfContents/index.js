@@ -18,8 +18,6 @@ navbarItems.addEventListener("click", (event) => {
     }
 })
 
-
-
 function triggerIntersectionObserver() {
   const headingTags = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
   const navbarItems = document.querySelector(".navbar-container");
