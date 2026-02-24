@@ -11,3 +11,26 @@ function filterOut(comments, inappropriateWords) {
 }
 
 console.log("filter out", filterOut(['I love this video', 'I hate this video', 'I dislike it'], ['Dislike', 'hate']))
+
+
+
+
+
+// word break - not filter 'hatefully' because of 'hate'
+
+// function getRegexWords(words) {
+//     return new RegExp(`\\b(${words.join('|')})\\b`, "i");
+// }
+
+// function filterOut(comments, words) {
+//     const result = []
+
+//     const pattern = getRegexWords(words)
+//     console.log(pattern)
+    
+//     return comments.filter(comment => !pattern.test(comment))
+// }
+
+
+
+// console.log("filter out", filterOut(['I love this video hatefully', 'I hate this video', 'I dislike it'], ['Dislike', 'hate']))
