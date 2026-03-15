@@ -28,5 +28,6 @@ var totalFruit = function(fruits) {
 // a = [0,1,2,2]
 // a = [1,2,1]
 a = [3,3,3,1,2,1,1,2,3,3,4]
+// output: 5
 
-console.log(totalFruits(a))
+console.log(totalFruit(a))

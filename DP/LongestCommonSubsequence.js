@@ -18,3 +18,6 @@ var longestCommonSubsequence = function(text1, text2) {
 }
 
 console.log(longestCommonSubsequence("abcde", "ace"))
+// output: 3
+// time complexity: O(m * n)
+// space complexity: O(m * n)

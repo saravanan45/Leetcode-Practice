@@ -1,0 +1,61 @@
+
+// native accessible - no aria required
+
+<input type="checkbox" id="checkbox" />
+<label htmlFor="checkbox">Terms and Conditions</label>
+
+
+
+// aria-label - when label is not visible or Icon Buttons
+
+<input type="text" aria-label="Search" />
+
+
+
+// aria-labelledby & aria-checked
+
+<div role="checkbox" aria-labelledby="checkbox" aria-checked={checked} style={{custom style for showing checkbox}} />
+<span id="checkbox">Terms and Conditions</span>
+
+
+// aria-describedby - Description about element
+
+<label htmlFor="password">Password</label>
+<input
+  id="password"
+  type="password"
+  aria-describedby="passwordHint"
+/>
+<div id="passwordHint">
+  Must be at least 8 characters long.
+</div>
+
+
+// aria-live -> form messages or toast & role="alert"
+
+1. aria-live = "off/polite/assertive"
+    assertive - announce immediately
+    polite - wait until screen reader is idle
+    off= dont automatically announce
+
+// aria-invalid - field has invalid input
+
+// aria-hidden - hide certain element from screen readers for eg: background element when modal is open
+
+// role="dialog"
+
+// role="alert"
+
+// role="status"
+
+// role="progressbar"
+
+// role="tablist", tab, tabpanel
+
+// aria-expanded
+
+// aria-controls
+
+// aria-hidden
+
+

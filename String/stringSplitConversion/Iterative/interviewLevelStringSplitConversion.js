@@ -29,3 +29,18 @@ const input = {
 }
 
 console.log(stringSplitConversion(input))
+
+// const output = {
+//   "a": "123",
+//   "b": {
+//     "def": ["ghij"],
+//     "ghi": "lmn"
+//   },
+//   "c": {
+//     "pqr": {
+//       "ikk": ["ndncxn"]
+//     },
+//     "lmn": "mxlx",
+//     "stuv": ["mxlsjs"]
+//   }
+// };

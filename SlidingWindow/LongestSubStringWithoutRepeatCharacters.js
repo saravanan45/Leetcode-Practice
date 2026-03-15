@@ -46,3 +46,4 @@ function test(str) {
 
 str= "abcabcbb"
 console.log(test(str))
+// op: 3

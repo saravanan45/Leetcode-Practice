@@ -36,3 +36,5 @@ var minDistance = function(word1, word2) {
 };
 
 console.log(minDistance("horse", "ros"))
+
+// OUTPUT: 

@@ -45,5 +45,12 @@ var minWindow = function (s, t) {
 
 minWindow("ADOBECODEBANC", "ABC");
 
+// sample cases
+// s = "timetopractice", p = "toc"
+// s = "zoomlazapzo", p = "oza"
+// test("a", "aa")
+
+// test(s,p)
+
 // time complexity -> O( s + t )
 // space complexity -> O(t)
