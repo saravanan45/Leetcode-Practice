@@ -1,7 +1,7 @@
 // 14. Longest Common Prefix
 
 function LongestCommonPrefix(strs) {
-      const firstString = strs[0]
+    const firstString = strs[0]
     let i =0;
     while(i < firstString.length) {
         for(let j = 1; j<strs.length; j++) {

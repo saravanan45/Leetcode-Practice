@@ -46,3 +46,10 @@ var closedIsland = function(grid) {
     }
     return numberOfIslands
 };
+
+grid = [[1,1,1,1,1,1,1,0],[1,0,0,0,0,1,1,0],[1,0,1,0,1,1,1,0],[1,0,0,0,0,1,0,1],[1,1,1,1,1,1,1,0]]
+console.log(closedIsland(grid))
+
+// time complexity: O(m × n)
+// space complexity: O(m × n)
+
